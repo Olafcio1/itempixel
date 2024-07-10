@@ -1,0 +1,20 @@
+name: ItemPixel
+version: '${project.version}'
+main: mc.olafcio.itempixel.ItemPixel
+api-version: '1.21'
+prefix: ItemPixel
+load: STARTUP
+softdepend: [PlaceholderAPI]
+authors: [Olafcio]
+description: Allows you to customize items in the ultimate Hypixel style.
+website: https://olafcio1.github.io
+commands:
+  itempixel:
+    description: Allows you to manage ItemPixel through the command interface.
+    aliases:
+      - ipx
+  itempixelgui:
+    description: Allows you to manage ItemPixel through the inventory interface.
+    aliases:
+      - ipxg
+      - ipxgui
